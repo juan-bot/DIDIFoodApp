@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    tools:context=".FourthFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:drawable/ic_menu_close_clear_cancel" />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizzeria La Estacion"
+            android:textColor="#000"
+            android:paddingLeft="70dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promociones"
+            android:textColor="#000"
+            android:gravity="left"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="left"
+            android:text="Promocion de productos"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="left"
+            android:text="Articulos con hasta 50% OFF"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección"
+            android:textColor="#000"
+            android:gravity="left"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Bustamante 807, BENITO JUAREZ, Centro, 68000 Oaxaca de Juaréz, Oaxaca"
+            />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Horario de atención"
+            android:textColor="#000"
+            android:gravity="left"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="left"
+            android:text="Todos los dias"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="left"
+            android:text="10:00 AM-10:00 PM"
+            />
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Método de entrega"
+            android:textColor="#000"
+            android:gravity="left"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:gravity="left"
+            android:text="DIDI Repartidor"
+            />
+
+    </LinearLayout>
+</LinearLayout>

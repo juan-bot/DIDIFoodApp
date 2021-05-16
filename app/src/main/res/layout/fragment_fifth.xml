@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthFragment"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/lugar"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@drawable/pizza2" />
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pizza grande peperoni"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginTop="10dp"
+            android:text="Salsa Italiana, mezcla de quesos, peperoni"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:text="Pizza orilla rellena de queso"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginTop="10dp"
+            android:text="Seleccionar 1"
+            />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp"
+            android:text="-   1   +"
+            android:textSize="22dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFFFFF"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Agregar 1"
+            android:layout_marginTop="80dp"
+            android:textColor="#FFFFFF"
+            android:background="#FF6500"/>
+    </LinearLayout>
+
+</LinearLayout>
