@@ -1,6 +1,6 @@
 # DIDIFoodApp
 
-I use RecyclerView for show an list of items and Navigation Component
+I used RecyclerView for show an list of items and Navigation Component
 
 ![0](https://user-images.githubusercontent.com/56168229/118543254-a8439980-b719-11eb-9f6b-8aa5c4d4eedf.png)
 
